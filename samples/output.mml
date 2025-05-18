@@ -1,0 +1,27 @@
+#TITLE ""
+#COMPOSER ""
+#TIMEBASE 48
+123 T163
+
+// Track-specific Instrument Assignments (from MUS Track @NN)
+// Track A: @69
+// Track B: @69
+// Track C: @70
+
+// トラック A (チャンネル 1)
+1 v13q8o5c12<a+12f+12e12c12<a+12f+2&f+2.&f+8g8 @L o3a+8a16a+16f+2.&f+2.& f+8g8a+8
+1 a16a+16f+2.&f+2&f+8q4>f8e8c8q8o4g+16g+16g+16g+16g+8r8r8g+16g+16g+16g+16 g+8
+1 r8q6o4c+8q4d8r8q6c+8q4d8r16q6c+16q4d8r8q6<f+8q4g8r8q6f+8q4g8r16q6f+16q4g8q8 o5
+1 d+16<<d+16r16>>d+16<<d+16r16>>d+8&d+2r4o4d+8r4.<a+8r8
+
+// トラック B (チャンネル 2)
+2 v11q8o4e12d12<a+12g+12e12d12<a+2&a+1 @L q7r8o3d88r8o3e88o4d+16d+16d+16 d+16d+8<
+2 c8<f8>>d+16d+16d+16d+16d+8q6o2a+8q4>g8q6g+8<a+8q4>g8q6g+8<a+16q4>g16q6 g+8<d+8q4
+2 >c8q6c+8<d+8q4>c8q6c+8<d+16q4>c16q6c+8q8o4a+16<<a+16r16>>a+16<<a+16r16 >>a+8&a+2
+2 r4o3a+8r8r4e8r8
+
+// トラック C (チャンネル 3)
+3 v13q8o4c12e12f+12a+12>c12<e12r4c4c4c4c4c4 @L q7o4g8a+88o4c8a+88o5a16 a16a16a16a8
+3 <c8<f8>>a16a16a16a16a8q6o3a+8q4>g8q6g+8<a+8q4>g8q6g+8<a+16q4>g16q6g+8 <d+8q4>
+3 c8q6c+8<d+8q4>c8q6c+8<d+16q4>c16q6c+8q8o6e16<<c16c16>>e16<<c16c16>>e4<<a+8 f+16
+3 g16<b8o4c816
