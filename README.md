@@ -18,8 +18,8 @@ MUS形式の音楽ファイルをNDP互換のMML(Music Macro Language)形式に�
 
 1. リポジトリをクローンします:
    ```bash
-   git clone https://github.com/yosawed/MDXMUS2NDP.git
-   cd MDXMUS2NDP
+   git clone https://github.com/yosawed/MUS2NDP.git
+   cd MUS2NDP
    ```
 
 2. 必要なパッケージをインストールします:
@@ -107,72 +107,6 @@ MUSファイルに含まれる以下のコマンドは、NDPでサポートさ�
 
 ## ライセンス
 このプロジェクトは [LICENSE](LICENSE) ファイルに記載されたライセンスの下で公開されています。
-
-// トラックA (チャンネル1)
-A c4d4e4f4g4a4b4>c4
-
-// トラックB (チャンネル2)
-B c4d4e4f4g4a4b4>c4
-
-// トラックC (チャンネル3)
-C c4d4e4f4g4a4b4>c4
-```
-
-各トラックはMUSファイルのチャンネルA, B, C, ... に対応しています。
-
-## 使い方
-
-### 基本的な使い方:
-```bash
-python mdx_converter_logic.py input.mus -o output.mml
-```
-
-### オプション一覧:
-```
-usage: mdx_converter_logic.py [-h] [-o OUTPUT] [-m {default,direct_8track}]
-                            [-l {frames,ticks}] [--verbose]
-                            input_file
-
-MUS to MML Converter
-
-positional arguments:
-  input_file            入力MUSファイルのパス
-
-options:
-  -h, --help            ヘルプを表示して終了します
-  -o OUTPUT, --output OUTPUT
-                        出力ファイルパス (デフォルト: <input_file>.mml)
-  -m {default,direct_8track}, --mode {default,direct_8track}
-                        変換モード (デフォルト: default)
-  -l {frames,ticks}, --length-mode {frames,ticks}
-                        ノート長の変換モード (デフォルト: frames)
-  --verbose             詳細な出力を表示
-
-### 変換モードの説明:
-
-- `default`: 標準的なMML形式に変換します
-- `direct_8track`: 8トラックのMML形式に直接マッピングして変換します
-  --octave-offset OCTAVE_OFFSET
-                        Octave offset for conversion (default: 0)
-  -v, --verbose         Enable verbose output
-```
-
-## 例
-
-基本的な変換:
-```bash
-python mdx_converter_logic.py sample.mdx
-```
-
-出力ファイルを指定:
-```bash
-python mdx_converter_logic.py sample.mus -o output.ndp
-```
-
-詳細モードで実行:
-```bash
-python mdx_converter_logic.py sample.mus -v
-```
 
 ## トラブルシューティング
 
