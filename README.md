@@ -18,8 +18,8 @@ MUS形式の音楽ファイルをNDP互換のMML(Music Macro Language)形式に�
 
 1. リポジトリをクローンします:
    ```bash
-   git clone https://github.com/yosawed/MDXMUS2NDP.git
-   cd MDXMUS2NDP
+   git clone https://github.com/yosawed/MUS2NDP.git
+   cd MUS2NDP
    ```
 
 2. 必要なパッケージをインストールします:
@@ -122,7 +122,7 @@ MUSファイルに含まれる以下のコマンドは、NDPでサポートさ�
 2. フィーチャーブランチを作成します (`git checkout -b feature/AmazingFeature`)
 3. 変更をコミットします (`git commit -m 'Add some AmazingFeature'`)
 4. ブランチにプッシュします (`git push origin feature/AmazingFeature`)
-5. プルリクエストを開きますて
+5. プルリクエストを開きます
 
 バグレポートやプルリクエストは歓迎します。
 
